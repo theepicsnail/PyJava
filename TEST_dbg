@@ -1,0 +1,92 @@
+Magic ['0xcafebabe']
+Version ['0x0', '0x32']
+Table count 29
+ 1 Method(ClassReference(java/lang/Object),NAT(<init>,()V))
+ 2 Field(ClassReference(java/lang/System),NAT(out,Ljava/io/PrintStream;))
+ 3 StringReference(Hello world)
+ 4 Method(ClassReference(java/io/PrintStream),NAT(println,(Ljava/lang/String;)V))
+ 5 ClassReference(TEST)
+ 6 ClassReference(java/lang/Object)
+ 7 <init>
+ 8 ()V
+ 9 Code
+10 LineNumberTable
+11 main
+12 ([Ljava/lang/String;)V
+13 SourceFile
+14 TEST.java
+15 NAT(<init>,()V)
+16 ClassReference(java/lang/System)
+17 NAT(out,Ljava/io/PrintStream;)
+18 Hello world
+19 ClassReference(java/io/PrintStream)
+20 NAT(println,(Ljava/lang/String;)V)
+21 TEST
+22 java/lang/Object
+23 java/lang/System
+24 out
+25 Ljava/io/PrintStream;
+26 java/io/PrintStream
+27 println
+28 (Ljava/lang/String;)V
+Access (33,)
+This  ClassReference(TEST)
+Super ClassReference(java/lang/Object)
+Interfaces: (0,)
+Fields: (0,)
+Methods: (2,)
+Method 0
+  Access flags (1,)
+  Name         <init>
+  Descriptor   ()V
+  Attributes:  1
+  Attribute 0
+    type  (9,)
+    attr_len  (29,)
+      stack   (1,)
+      locals  (1,)
+      codelen 5
+         0x2a
+         0xb7
+         0x0
+         0x1
+         0xb1
+      excepts (0,)
+      attrs 1
+      Attr 0
+        type  (10,)
+        len   (6,)
+        count 1
+           (0, 1)
+Method 1
+  Access flags (9,)
+  Name         main
+  Descriptor   ([Ljava/lang/String;)V
+  Attributes:  1
+  Attribute 0
+    type  (9,)
+    attr_len  (37,)
+      stack   (2,)
+      locals  (1,)
+      codelen 9
+         0xb2
+         0x0
+         0x2
+         0x12
+         0x3
+         0xb6
+         0x0
+         0x4
+         0xb1
+      excepts (0,)
+      attrs 1
+      Attr 0
+        type  (10,)
+        len   (10,)
+        count 2
+           (0, 3)
+           (8, 4)
+Attributes: (1,)
+  Type  (13,)
+  Len   (2,)
+  Data  (14,)
